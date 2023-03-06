@@ -1,0 +1,127 @@
+:root{
+  --br-bottom-color: #d7eaff;
+  --font-color-primary: #1a232f;
+  --font-family-priamry: 'SF Pro Display', sans-serif;
+  --color-primary: #3597ff;
+  --dropdown-link-color: #0d6efd;
+  --container-section-width: 1320px;
+}
+
+body{
+  margin: 0;
+}
+
+
+/* SEARCH BAR */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+header span {
+  font-size: 13px;
+  color: var(--font-color-primary) !important;
+}
+
+.discord-btn {
+  padding: 6px 10px;
+  border-radius: 15px;
+  border-color: #e4e5e7 !important;
+  background-color: #f0f1f2 !important;
+  font-size: 12px;
+  text-decoration: none;
+  color: #a2a5ab !important;
+}
+
+.discord-btn:hover{
+  color: var(--font-color-primary) !important;
+  transition: ease-in-out, .20s;
+}
+
+header .border-bottom{
+  border-color: var(--br-bottom-color) !important;
+}
+
+
+/* SEARCH BAR */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+nav{
+  padding: 16px 0px !important;
+}
+
+nav .container{
+  max-width: var(--container-section-width) !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-links{
+  margin-right: 18em;
+}
+
+nav a {
+  padding: 8px !important;
+  font-family: var(--font-family-priamry);
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--font-color-primar);
+  font-weight: 600;
+}
+
+nav a:hover{
+  color: var(--color-primary);
+  transition: ease-in-out, .20s;
+}
+
+.dropdown-btn{
+  overflow: hidden;
+  background-color: inherit;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  display: flex;
+  margin: auto 0;
+  color: var(--font-color-primary);
+  font-weight: 600;
+}
+
+.dropdown-btn:hover{
+  color: var(--color-primary);
+  transition: ease-in-out, .20s;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+  border-radius: 6px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 6px 16px !important;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}       
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: var(--color-primary);
+  transition: ease-in-out, .20s;
+}
+
+.dropdown i {
+  padding-left: 8px;
+}
+
+.btn-primary{
+  background-color: var(--color-primary) !important;
+  padding: 12px 20px !important;
+  font-size: 14px !important;
+}

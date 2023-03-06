@@ -13,8 +13,6 @@
   <meta property="og:description" content="Toto je klon webstranky OpenLab.sk">
   <meta property="og:image" content="https://openlab.wezeo.dev/wp-content/uploads/2022/02/cropped-Favicon.png">
   <meta property="og:image:secure_url" content="https://openlab.wezeo.dev/wp-content/uploads/2022/02/cropped-Favicon.png">
-  <!-- <link rel="stylesheet" href="./scss_compiler/custom.min.css"> -->
-  <!-- <link rel="stylesheet" href="./scss/main.scss"> -->
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -23,13 +21,13 @@
   
   <!-- Header Search Bar -->
   <header class="">
-    <div class="">
-      <div class="">
-        <span class="">Ak máš záujem študovať spolu s nami, sme tu pre teba...</span>
+    <div class="container d-flex justify-content-center py-3 border-bottom">
+      <div class="me-5 d-flex">
+        <span class="my-auto">Ak máš záujem študovať spolu s nami, sme tu pre teba...</span>
       </div>
       <div class="">
-        <a href="#" class="">
-          <span class="">OPENLAB COMMUNITY</span>
+        <a href="#" class="discord-btn border d-flex gap-1">
+          OPENLAB COMMUNITY
           <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/discord.svg" alt="Discord Logo">
         </a>
       </div>
@@ -37,34 +35,32 @@
   </header>
 
   <!-- Nav Bar -->
-  <nav class="">
-    <div class="">
-      <div class="">
-        <a href="#" class="">
+  <nav class="d-flex">
+    <div class="container">
+      <div class="d-flex my-auto">
+        <a href="#" class="me-3">
           <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/openlab-logo.svg" alt="Logo">
         </a>
       </div>
-      <div class="">
-          <div class="">
-              <a class="" href="#">Úvod</a>
-            <div class="">
-              <button class="">OpenLab
-                <i class="fa-sharp fa-solid fa-angle-down dropdown-arrow-icon"></i>
-              </button>
-              <div class="">
-                <a class="" href="#">HybridLab</a>
-                <a class="" href="#">GamesLab</a>
-                <a class="" href="#">AppsLab</a>
-              </div>
-            </div>
-            <a class="" href="#">Pre ucitelov</a>
-            <a class="" href="#">Partneri</a>
-            <a class="" href="#">Moderna skola</a>
-            <a class="" href="#">Caste otazky</a> 
+      <div class="d-flex gap-4 navbar-links">
+        <a class="" href="#">Úvod</a>
+        <div class="dropdown my-auto">
+          <button class="dropdown-btn">OpenLab
+            <i class="fa-sharp fa-solid fa-angle-down dropdown-arrow-icon my-auto"></i>
+          </button>
+          <div class="dropdown-content">
+            <a class="" href="#">HybridLab</a>
+            <a class="" href="#">GamesLab</a>
+            <a class="" href="#">AppsLab</a>
           </div>
-        <div class="">  
-          <button class="">Pridajte sa k nám</button>
         </div>
+        <a class="" href="#">Pre ucitelov</a>
+        <a class="" href="#">Partneri</a>
+        <a class="" href="#">Moderna skola</a>
+        <a class="" href="#">Caste otazky</a> 
+      </div>
+      <div class="">  
+        <button class="btn btn-primary">Pridajte sa k nám</button>
       </div>
     </div>
   </nav>
