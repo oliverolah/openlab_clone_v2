@@ -1,17 +1,23 @@
-:root{
+:root { 
   --br-bottom-color: #d7eaff;
   --font-color-primary: #1a232f;
   --font-color-secondary: #566b8d;
   --font-size-h1: 40px;
+  --font-size-h2: 40px;
+  --font-size-h5: 20px;
   --font-size-parag: 16px;
+  --font-size-parag2: 14px;
   --font-family-priamry: 'SF Pro Display', sans-serif;
   --color-primary: #3597ff;
   --dropdown-link-color: #0d6efd;
   --container-section-width: 1320px;
   --text-color-white: white;
+  --section-padding: 48px 0px;
+  --font-wgh-300: 300;
+  --font-whg-bold: bold;
 }
 
-body{
+body {
   margin: 0;
   overflow-x: hidden;
 }
@@ -35,12 +41,12 @@ header span {
   color: #a2a5ab !important;
 }
 
-.discord-btn:hover{
+.discord-btn:hover {
   color: var(--font-color-primary) !important;
   transition: ease-in-out, .20s;
 }
 
-header .border-bottom{
+header .border-bottom {
   border-color: var(--br-bottom-color) !important;
 }
 
@@ -48,11 +54,11 @@ header .border-bottom{
 /* SEARCH BAR */
 /* +++++++++++++++++++++++++++++++++++++++++ */
 
-nav{
+nav {
   padding: 16px 0px !important;
 }
 
-nav .container{
+nav .container {
   max-width: var(--container-section-width) !important;
   display: flex;
   align-items: center;
@@ -72,12 +78,12 @@ nav a {
   font-weight: 600;
 }
 
-nav a:hover{
+nav a:hover {
   color: var(--color-primary);
   transition: ease-in-out, .20s;
 }
 
-.dropdown-btn{
+.dropdown-btn {
   overflow: hidden;
   background-color: inherit;
   cursor: pointer;
@@ -89,7 +95,7 @@ nav a:hover{
   font-weight: 600;
 }
 
-.dropdown-btn:hover{
+.dropdown-btn:hover {
   color: var(--color-primary);
   transition: ease-in-out, .20s;
 }
@@ -125,7 +131,7 @@ nav a:hover{
   padding-left: 8px;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: var(--color-primary) !important;
   padding: 12px 20px !important;
   font-size: 14px !important;
@@ -134,43 +140,97 @@ nav a:hover{
 
 /* SECTION 1 */
 /* +++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++ */
 
-.hero-section{
+.hero-section {
   height: 440px;
   background-color: var(--color-primary) !important;
   width: 100%;
   margin-bottom: 48px;
 }
 
-.hero-container{
+.hero-container {
   width: var(--container-section-width);
 }
 
 .hero-circle {
   width: 482px !important;
   right: -236px;
-  bottom: -236px;
+  bottom: -230px;
 }
 
-.hero-text-container{
+.hero-text-container {
   width: 50%;
 }
 
-.hero-text-wrapper{
+.hero-text-wrapper {
   padding: 48px 12px;
 }
 
-.hero-header{
+.hero-header {
   font-size: var(--font-size-h1);
-  font-weight: 300 !important;
+  font-weight: var(--font-wgh-300) !important;
   margin-bottom: 24px;
 }
 
-.hero-span-text{
-  font-weight: bold !important;
+.hero-span-text {
+  font-weight: var(--font-whg-bold) !important;
 }
 
-.hero-parag{
+.hero-parag {
   font-size: var(--font-size-parag) !important;
   margin-bottom: 16px;
+}
+
+
+/* SECTION 2 */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+.why-openlab {
+  width: 100%;
+  padding: var(--section-padding);
+}
+
+.why-openlab-container {
+  width: var(--container-section-width);
+  padding: 24px 12px;
+}
+
+.why-openlab-text-wrapper h2 {
+  font-size: var(--font-size-h2) !important;
+  font-weight: var(--font-wgh-300) !important;
+  margin-bottom: 48px;
+  color: var(--font-color-primary);
+}
+
+.why-openlab-text-wrapper span {
+  font-weight: var(--font-whg-bold);
+}
+
+.why-openlab-text-wrapper p {
+  margin: 0px 48px 16px;
+  color: var(--font-color-secondary);
+}
+
+.why-card {
+  width: 25%;
+  padding: 48px 12px 0px;
+}
+
+.why-card-text-wrapper {
+  padding: 16px 0px;
+}
+
+.why-card-text-wrapper h5 {
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-whg-bold);
+  margin-bottom: 8px;
+  color: var(--font-color-primary);
+}
+
+.why-card-text-wrapper p { 
+  font-size: var(--font-size-parag2);
+  overflow-wrap: break-word;
+  color: var(--font-color-secondary);
 }
