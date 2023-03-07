@@ -1,14 +1,19 @@
 :root{
   --br-bottom-color: #d7eaff;
   --font-color-primary: #1a232f;
+  --font-color-secondary: #566b8d;
+  --font-size-h1: 40px;
+  --font-size-parag: 16px;
   --font-family-priamry: 'SF Pro Display', sans-serif;
   --color-primary: #3597ff;
   --dropdown-link-color: #0d6efd;
   --container-section-width: 1320px;
+  --text-color-white: white;
 }
 
 body{
   margin: 0;
+  overflow-x: hidden;
 }
 
 
@@ -100,7 +105,7 @@ nav a:hover{
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: var(--font-color-primary);
   padding: 6px 16px !important;
   text-decoration: none;
   display: block;
@@ -124,4 +129,48 @@ nav a:hover{
   background-color: var(--color-primary) !important;
   padding: 12px 20px !important;
   font-size: 14px !important;
+}
+
+
+/* SECTION 1 */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+.hero-section{
+  height: 440px;
+  background-color: var(--color-primary) !important;
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.hero-container{
+  width: var(--container-section-width);
+}
+
+.hero-circle {
+  width: 482px !important;
+  right: -236px;
+  bottom: -236px;
+}
+
+.hero-text-container{
+  width: 50%;
+}
+
+.hero-text-wrapper{
+  padding: 48px 12px;
+}
+
+.hero-header{
+  font-size: var(--font-size-h1);
+  font-weight: 300 !important;
+  margin-bottom: 24px;
+}
+
+.hero-span-text{
+  font-weight: bold !important;
+}
+
+.hero-parag{
+  font-size: var(--font-size-parag) !important;
+  margin-bottom: 16px;
 }
