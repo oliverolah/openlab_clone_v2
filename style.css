@@ -15,6 +15,7 @@
   --section-padding: 48px 0px;
   --font-wgh-300: 300;
   --font-whg-bold: bold;
+  --section-full-width: 100%
 }
 
 body {
@@ -145,7 +146,7 @@ nav a:hover {
 .hero-section {
   height: 440px;
   background-color: var(--color-primary) !important;
-  width: 100%;
+  width: var(--section-full-width);
   margin-bottom: 48px;
 }
 
@@ -188,7 +189,7 @@ nav a:hover {
 /* +++++++++++++++++++++++++++++++++++++++++ */
 
 .why-openlab {
-  width: 100%;
+  width: var(--section-full-width);
   padding: var(--section-padding);
 }
 
@@ -234,3 +235,139 @@ nav a:hover {
   overflow-wrap: break-word;
   color: var(--font-color-secondary);
 }
+
+
+/* SECTION 3 */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+.openlab-vision {
+  width: var(--section-full-width);
+  padding: var(--section-padding);
+}
+
+.openlab-vision-container {
+  width: var(--container-section-width);
+}
+
+.vision-text-container {
+  width: 70% !important;
+}
+
+.vision-text-wrapper {
+  padding: 0px 12px;
+}
+
+.vision-text-wrapper h2 {
+  color: var(--font-color-primary);
+  font-weight: var(--font-wgh-300);
+  margin-bottom: 48px;
+  font-size: var(--font-size-h2);
+}
+
+.vision-text-wrapper span {
+  font-weight: var(--font-whg-bold);
+}
+
+.vision-text-wrapper p {
+  color: var(--font-color-secondary);
+  margin-bottom: 24px;
+}
+
+.vision-text-wrapper p:nth-child(3) {
+  margin-bottom: 16px;
+}
+
+.vision-card-1 {
+  background-color: #f2f7ff;
+  margin: 8px;
+  width: 233px;
+  height: 183px;
+  padding: 16px 24px;
+}
+
+.vision-card-content-wrapper-1 p:nth-child(1){
+  color: #5b94d7 !important;
+  font-size: 90px;
+  margin-bottom: 10px;
+  font-weight: var(--font-whg-bold);
+}
+
+.vision-card-content-wrapper-1 p:nth-child(2){
+  color: #5b94d7 !important;
+  font-size: 18px;
+  margin: 0;
+  font-weight: var(--font-whg-bold);
+}
+
+.vision-card-2 {
+  background-color: #d8f8eb;
+  margin: 8px;
+  width: 233px;
+  height: 183px;
+  padding: 16px 24px;
+}
+
+.vision-card-content-wrapper-2 p:nth-child(1){
+  color: #5cc19a !important;
+  font-size: 90px;
+  margin-bottom: 10px;
+  font-weight: var(--font-whg-bold);
+}
+
+.vision-card-content-wrapper-2 p:nth-child(2){
+  color: #5cc19a !important;
+  font-size: 18px;
+  margin: 0;
+  font-weight: var(--font-whg-bold);
+}
+
+.vision-card-3 {
+  background-color: #f8f4d8;
+  margin: 8px;
+  width: 233px;
+  height: 183px;
+  padding: 16px 24px;
+}
+
+.vision-card-content-wrapper-3 p:nth-child(1){
+  color: #dbca68 !important;
+  font-size: 90px;
+  margin-bottom: 10px;
+  font-weight: var(--font-whg-bold);
+}
+
+.vision-card-content-wrapper-3 p:nth-child(2){
+  color: #dbca68 !important;
+  font-size: 18px;
+  margin: 0;
+  font-weight: var(--font-whg-bold);
+}
+
+.vision-card-4 {
+  background-color: #f8d8d8;
+  margin: 8px;
+  width: 233px;
+  height: 183px;
+  padding: 16px 24px;
+}
+
+.vision-card-content-wrapper-4 p:nth-child(1){
+  color: #b95e73 !important;
+  font-size: 90px;
+  margin-bottom: 10px;
+  font-weight: var(--font-whg-bold);
+}
+
+.vision-card-content-wrapper-4 p:nth-child(2){
+  color: #b95e73 !important;
+  font-size: 18px;
+  margin: 0;
+  font-weight: var(--font-whg-bold);
+}
+
+
+/* SECTION 4 */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
