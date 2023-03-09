@@ -371,3 +371,67 @@ nav a:hover {
 /* +++++++++++++++++++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++++++++++++++++++ */
 
+.openlab-labs {
+  padding: var(--section-padding);
+  width: var(--section-full-width);
+}
+
+.openlab-labs-container {
+  width: var(--container-section-width);
+  padding: 24px 12px;
+}
+
+.openlab-labs-header-wrapper {
+  width: 40%;
+}
+
+.openlab-labs-header-wrapper h2 {
+  padding: 0px 12px;
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-wgh-300);
+  color: var(--font-color-primary);
+}
+
+.openlab-labs-header-wrapper span {
+  font-weight: var(--font-whg-bold);
+}
+
+.openlab-labs-cards-wrapper {
+  width: 60%;
+  padding: 0px 12px;
+}
+
+.labs-card-content {
+  padding: 24px 48px 48px;
+  width: 270px;
+  height: 240px;
+}
+
+.labs-card-content h5 {
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-whg-bold);
+  color: var(--font-color-primary);
+}
+
+.labs-card-content span {
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-wgh-300);
+}
+
+.labs-card-content p {
+  font-size: var(--font-size-parag2);
+  margin-bottom: 10px;
+  color: var(--font-color-secondary);
+}
+
+.labs-card-content i {
+  bottom: 25px;
+}
+
+.labs-card:hover {
+  box-shadow: 1px 0px 20px 1px rgba(196,196,196,0.75);
+  -webkit-box-shadow: 1px 0px 20px 1px rgba(196,196,196,0.75);
+  -moz-box-shadow: 1px 0px 20px 1px rgba(196,196,196,0.75);
+  transition-timing-function: ease-in-out;
+  transition: .3s;
+}
