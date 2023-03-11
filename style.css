@@ -435,3 +435,82 @@ nav a:hover {
   transition-timing-function: ease-in-out;
   transition: .3s;
 }
+
+
+/* SECTION 5 */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+.openlab-location {
+  padding: var(--section-padding);
+}
+
+.openlab-location-container {
+  width: var(--section-full-width);
+}
+
+.openlab-location .w-100 {
+  width: 92% !important;
+}
+
+.location-header-wrapper {
+  margin-bottom: 64px;
+}
+
+.location-header-wrapper h2 {
+  color: var(--font-color-primary);
+  font-weight: var(--font-wgh-300);
+  font-size: var(--font-size-h2);
+}
+
+.location-header-wrapper span {
+  font-weight: var(--font-whg-bold);
+  font-size: var(--font-size-h2);
+}
+
+.openlab-loc-cards-container .pe-3 {
+  padding-right: 12px !important;
+}
+
+.openlab-loc-cards-container .ps-3 {
+  padding-left: 12px !important;
+}
+
+.loc-card-info-body {
+  padding: 24px 0px 16px;
+}
+
+.lab-loc h6 {
+  color: var(--font-color-secondary);
+  font-weight: var(--font-wgh-300);
+  font-size: var(--font-size-parag);
+}
+
+.lab-loc-info-body .loc-name {
+  font-weight: var(--font-whg-bold);
+  font-size: var(--font-size-h5);
+}
+
+.loc-alert span {
+  color: red;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.loc-alert img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.loc-website a {
+  font-weight: 500;
+  color: var(--color-primary);
+  font-size: 18px;
+}
+
+.openlab-location .loc-img {
+  width: 436px;
+  right: -420px;
+  bottom: -290px;
+}
