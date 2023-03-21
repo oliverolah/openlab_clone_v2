@@ -20,8 +20,8 @@
 <body>
   
   <!-- Header Search Bar -->
-  <header>
-    <div class="container d-flex justify-content-center py-3 border-bottom">
+  <header class="d-none d-xl-block">
+    <div class="container d-flex justify-content-center py-2 border-bottom">
       <div class="me-5 d-flex">
         <span class="my-auto">Ak máš záujem študovať spolu s nami, sme tu pre teba...</span>
       </div>
@@ -35,7 +35,7 @@
   </header>
 
   <!-- Nav Bar -->
-  <nav>
+  <!-- <nav>
     <div class="container navbar-container justify-content-between">
       <div class="d-flex my-auto">
         <a href="#" class="me-3">
@@ -61,6 +61,88 @@
       </div>
       <div>  
         <button class="btn btn-primary border-0">Pridajte sa k nám</button>
+      </div>
+    </div>
+  </nav> -->
+
+  <nav class="navbar-expand-xl navbar py-xl-3 navbar-light bg-white">
+    <div class="container-fluid container">
+      <a class="navbar-brand" href="#">
+        <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/openlab-logo.svg" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end justify-content-xl-start flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Úvod</a>
+            </li>
+            <li class="nav-item dropdown mb-0 me-xl-3 d-xl-flex align-items-center text-center"> 
+              <a class="nav-link d-inline pe-0" aria-current="page" href="#">OpenLab</a>
+              <a href="#" class="dropdown-toggle d-inline ms-2 d-none d-xl-block" role="button" data-bs-toggle="dropwdon" arial-expand="false"></a>
+              <ul class="dropdown-menu border-0 p-0 stay-open-mobile text-center" aria-labelledby="openlabyDropdown" data-bs-popper="none">
+                <li class="mb-2 mb-xl-0 mt-3 mt-xl-0">
+                  <a class="dropdown-item">HybridLab</a>
+                </li>
+                <li class="mb-2 mb-xl-0">
+                  <a class="dropdown-item">GamesLab</a>
+                </li>
+                <li class="mb-2 mb-xl-1">
+                  <a class="dropdown-item">AppsLab</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Pre ucitelov</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Partneri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Moderna skola</a>
+            </li>
+            <li class="nav-item mb-4 mb-xl-0">
+              <a class="nav-link active" aria-current="page" href="#">Caste otazky</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+          </ul>
+          <div class="navbar-nav justify-content-end flex-grow-1">
+            <button class="btn btn-primary border-0 me-xl-0">Pridajte sa k nám</button>
+          </div>
+          <div class="discord-btn-container navbar-nav d-flex justify-content-center d-xl-none">
+            <div class="d-flex justify-content-center">
+              <span class="my-auto lh-1">Ak máš záujem študovať spolu s nami, sme tu pre teba...</span>
+            </div>
+            <div>
+              <a href="#" class="offcanvas-discord-btn border d-flex gap-1 justify-content-center">
+                OPENLAB COMMUNITY
+                <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/discord.svg" alt="Discord Logo">
+              </a>
+            </div>
+          </div>
+          <!-- <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
       </div>
     </div>
   </nav>
@@ -733,7 +815,8 @@
     <img class="" src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/footer.svg" alt="yellow footer block">
   </footer>
 
-  <script type="module" src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
