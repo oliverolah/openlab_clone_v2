@@ -985,6 +985,11 @@ header .border-bottom {
   -moz-box-shadow: 1px 0px 20px 1px rgba(196,196,196,0.75);
   transition-timing-function: ease-in-out;
   transition: .3s;
+  border-radius: 3px;
+}
+
+.labs-card:hover i {
+  color: var(--color-primary);
 }
 
 @media (min-width: 600px){
