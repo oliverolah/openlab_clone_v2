@@ -328,8 +328,8 @@
   <!-- Section 6 -->
   <section class="student-testimonials">
     <div class="student-testimonials-container justify-content-lg-between container d-lg-flex">
-      <div class="stud-text-wrapper">
-        <div class="stud-text-wrapper-aligner position-relative">
+      <div class="stud-text-wrapper d-xxl-flex">
+        <div class="stud-text-wrapper-aligner position-relative mb-xxl-0">
           <div class="students-testimonials-text-wrapper d-flex">
             <div class="my-auto">
               <h2><span>Čo si myslia</span><br> o OpenLabe študenti?</h2>
@@ -374,16 +374,18 @@
               </div>
             </div>
           </div>
-          <button class="stud-btn-prev position-absolute rounded" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" type="button" data-bs-target="#carouselExampleCaptions">
-            <i class="fa-sharp fa-solid fa-arrow-left btn-prev-icon"></i>
-          </button>
-          <button class="stud-btn-next position-absolute rounded" data-bs-slide-to="1" aria-label="Slide 2" type="button" data-bs-target="#carouselExampleCaptions">
-            <i class="fa-sharp fa-solid fa-arrow-right btn-next-icon"></i>
-          </button>
+          <div class="stud-btn-wrapper position-absolute">
+            <button class="stud-btn-prev rounded" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" type="button" data-bs-target="#carouselExampleCaptions">
+              <i class="fa-sharp fa-solid fa-arrow-left btn-prev-icon"></i>
+            </button>
+            <button class="stud-btn-next rounded" data-bs-slide-to="1" aria-label="Slide 2" type="button" data-bs-target="#carouselExampleCaptions">
+              <i class="fa-sharp fa-solid fa-arrow-right btn-next-icon"></i>
+            </button>
+          </div>
         </div>
       </div>
-      <div class="d-lg-flex students-testimonials-img-wrapper d-none">
-        <img class="students-img img-fluid" src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/students3.png" alt="Students">
+      <div class="d-lg-flex students-testimonials-img-wrapper d-none position-relative">
+        <img class="students-img img-fluid position-absolute" src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/students3.png" alt="Students">
       </div>
     </div>
   </section>

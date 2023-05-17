@@ -1427,7 +1427,12 @@ header .border-bottom {
     margin-bottom: 0;
   }
 
-  .stud-btn-prev {
+  .stud-btn-wrapper {
+    right: 0px;
+    top: 430px;
+  }
+
+  /* .stud-btn-prev {
     bottom: 70px !important;
     right: 40px !important;
   }
@@ -1435,7 +1440,7 @@ header .border-bottom {
   .stud-btn-next {
     bottom: 70px !important;
     right: 0px !important;
-  }
+  } */
 
 }
 @media (max-width: 768px){
@@ -1483,7 +1488,12 @@ header .border-bottom {
     margin-bottom: 0;
   }
 
-  .stud-btn-prev {
+  .stud-btn-wrapper {
+    right: 0px;
+    top: 325px
+  }
+
+  /* .stud-btn-prev {
     bottom: 60px;
     right: 70px;
   }
@@ -1491,7 +1501,7 @@ header .border-bottom {
   .stud-btn-next {
     bottom: 60px;
     right: 30px;
-  }
+  } */
 
 }
 @media (min-width: 768px){
@@ -1540,7 +1550,12 @@ header .border-bottom {
     margin-bottom: 0;
   }
 
-  .stud-btn-prev {
+  .stud-btn-wrapper {
+    right: 0px;
+    top: 280px;
+  }
+
+  /* .stud-btn-prev {
     bottom: 80px;
     right: 70px;
   }
@@ -1548,7 +1563,7 @@ header .border-bottom {
   .stud-btn-next {
     bottom: 80px;
     right: 30px;
-  }
+  } */
 
 }
 @media (min-width: 992px){
@@ -1568,18 +1583,23 @@ header .border-bottom {
   .students-testimonials-img-wrapper {
     width: 456px;
     height: 400px;
-    position: relative;
+    /* position: relative; */
   }
 
   .students-testimonials-img-wrapper img {
-    position: absolute;
-    bottom: -55px;
+    /* position: absolute; */
+    bottom: -70px;
     left: -25px;
     width: 100%;
     height: 100%;
   }
 
-  .stud-btn-prev {
+  .stud-btn-wrapper {
+    top: 342px;
+    right: 35px;
+  }
+
+  /* .stud-btn-prev {
     bottom: 80px;
     right: 85px;
   }
@@ -1587,7 +1607,7 @@ header .border-bottom {
   .stud-btn-next {
     bottom: 80px;
     right: 45px;
-  }
+  } */
 
 }
 @media (min-width: 1200px){
@@ -1606,13 +1626,27 @@ header .border-bottom {
   }
   
   .students-testimonials-img-wrapper {
-    width: 636px;
-    height: 556px;
+    width: 566px;
+    height: 506px;
   }
 
   .students-testimonials-img-wrapper img {
-    bottom: -5px;
-    left: 20px;
+    bottom: 0px;
+    left: 5px;
+  }
+
+}
+
+@media (min-width: 1400px){
+
+  .students-testimonials-img-wrapper {
+    width: 606px;
+    height: 526px;
+  }
+  
+  .students-testimonials-img-wrapper img {
+    bottom: 0px;
+    left: -10px;
   }
 
 }
