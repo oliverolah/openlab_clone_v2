@@ -440,6 +440,7 @@ header .border-bottom {
 
 .why-openlab-container {
   padding: 72px 12px;
+  font-family: var(--font-family-priamry);
 }
 
 .why-openlab-text-wrapper p {
@@ -588,6 +589,7 @@ header .border-bottom {
 
 .openlab-vision {
   padding: var(--section-padding);
+  font-family: var(--font-family-priamry);
 }
 
 /* .vision-text-container {
@@ -630,8 +632,8 @@ header .border-bottom {
   }
   
   .vision-text-wrapper h2 {
-    margin-bottom: 8px;
-    font-size: 29px;
+    margin-bottom: 16px;
+    font-size: 26px;
   }
 
   .vision-text-wrapper p {
@@ -955,6 +957,7 @@ header .border-bottom {
 
 .openlab-labs {
   padding: var(--section-padding);
+  font-family: var(--font-family-priamry);
 }
 
 .openlab-labs-header-wrapper h2 {
@@ -1114,6 +1117,7 @@ header .border-bottom {
 
 .openlab-location {
   padding: var(--section-padding);
+  font-family: var(--font-family-priamry);
 }
 
 .location-header-wrapper h2 {
@@ -1144,7 +1148,6 @@ header .border-bottom {
   
   .location-header-wrapper {
     margin: 0px 0px 16px;
-    padding: 0px 12px;
   }
 
   .location-header-wrapper h2 {
@@ -1190,7 +1193,7 @@ header .border-bottom {
 @media (max-width: 768px){
 
   .location-header-wrapper {
-    padding: 0px 12px !important;
+    padding: 0px;
     margin: 0px 0px 16px;
     display: flex;
   }
@@ -1338,6 +1341,7 @@ header .border-bottom {
 
 .student-testimonials {
   background-color: var(--studs-testimonials-section-bg-color);
+  font-family: var(--font-family-priamry);
 }
 
 .student-testimonials-container {
@@ -1384,9 +1388,9 @@ header .border-bottom {
 
 @media (max-width: 320px){
 
-  /* .student-testimonials {
+  .student-testimonials {
     height: 600px !important;
-  } */
+  }
 
   .students-testimonials-text-wrapper div h2 {
     font-size: 28px;
@@ -1428,8 +1432,8 @@ header .border-bottom {
   }
 
   .stud-btn-wrapper {
-    right: 0px;
-    top: 430px;
+    right: 0 !important;
+    top: 422px !important;
   }
 
   /* .stud-btn-prev {
@@ -1445,9 +1449,9 @@ header .border-bottom {
 }
 @media (max-width: 768px){
 
-  /* .student-testimonials {
-    height: 468px;
-  } */
+  .student-testimonials {
+    height: 480px;
+  }
 
   .students-testimonials-text-wrapper div h2 {
     font-size: 28px;
@@ -1461,6 +1465,7 @@ header .border-bottom {
 
   .testimonial-parag-wrapper {
     padding: 48px 20px 0px;
+    /* max-height: 301px !imporstant; */
   }
 
   .testimonial-parag-wrapper p {
@@ -1656,158 +1661,98 @@ header .border-bottom {
 }
 
 
-/* SECTION 7 */
+
+/* SECTION 10 */
 /* +++++++++++++++++++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++++++++++++++++++ */
 
-.joinus-section {
+
+.whyus-section {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+  font-family: var(--font-family-priamry);
+}
+
+.whyus-container {
   padding-top: 48px;
 }
 
-.joinus-section-container {
-  padding: 48px 12px 0;
-}
-
-.joinus-section-container h2 {
+.whyus-header-wrapper h2 {
   color: var(--font-color-primary);
   font-weight: var(--font-wgh-300);
-  font-size: var(--font-size-h2);
-  margin-bottom: 48px;
 }
 
-.joinus-section-container span {
-  font-weight: var(--font-whg-bold);
-}
-
-.joinus-card {
-  padding: 24px 24px 48px;
-}
-
-.joinus-card h5 {
-  font-weight: var(--font-whg-bold);
+.whyus-header-wrapper span {
   color: var(--font-color-primary);
-}
-
-.joinus-card p {
-  color: var(--font-color-secondary);
-}
-
-.joinus-card i {
-  color: #bac2d0;
-}
-
-.joinus-card:hover {
-  box-shadow: 1px 0px 20px 1px rgba(196,196,196,0.75);
-  -webkit-box-shadow: 1px 0px 20px 1px rgba(196,196,196,0.75);
-  -moz-box-shadow: 1px 0px 20px 1px rgba(196,196,196,0.75);
-  transition-timing-function: ease-in-out;
-  transition: .3s;
-}
-
-
-/* SECTION 8 */
-/* +++++++++++++++++++++++++++++++++++++++++ */
-/* +++++++++++++++++++++++++++++++++++++++++ */
-
-.joinus-testimonial {
-  padding-top: 100px;
-  margin-bottom: 48px;
-  height: 670px;
-}
-
-.joinus-testimonial-container {
-  height: 100%;
-}
-
-.testimonial-box {
-  background-color: var(--testimonial-box-bg-color);  
-  width: 585px;
-  height: 500px;
-  border-radius: 12px;
-  top: -55px;
-  left: -50px;
-}
-
-.testimonial-img-container {
-  width: 1092px;
-  height: 500px;
-  border: 0;
-  right: -100px;
-  bottom: 50px;
-}
-
-.testimonial-img-container img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 18px;
-}
-
-.testimonial-box-content {
-  padding: 40px 32px;
-  max-width: 585px;
-  color: white
-}
-
-.testimonial-box-content p:nth-child(1) {
-  font-size: 20px;
-  margin-bottom: 16px;
-}
-
-.testimonial-box-content span {
   font-weight: var(--font-whg-bold);
 }
 
-.testimonial-box-content p:nth-child(2) {
-  height: 1px;
-  background-color: white;
-  width: 50px;
+.whyus-card-text-wrapper h5 {
+  color: var(--font-color-primary);
+  font-weight: var(--font-whg-bold);
 }
 
-.testimonial-box-content h3 {
-  font-size: 30px;
-  margin: 24px 0px;
+.whyus-card-text-wrapper p {
+  color: var(--font-color-secondary);
+  overflow-wrap: break-word;
 }
 
-.testimonial-box-content p:nth-child(4) {
-  font-size: 17px;
-  margin-bottom: 48px;
+.whyus-section .border-bottom {
+  border-color: var(--br-bottom-color);
 }
 
-.testimonial-box-content p:nth-child(5) {
-  font-size: 17px;
-  margin: 0;
+@media (max-width: 320px){
+
+  .whyus-header-wrapper h2 {
+    font-size: 26px !important;
+  }
+
 }
 
-.testimonial-box-content p:nth-child(6) {
-  margin: 0;
-  font-size: 17px;
+@media (max-width: 575px){
+  .whyus-container {
+    padding: 48px 12px;
+  }
 }
 
-.testimonial-switcher-box {
-  height: 10px;
-  gap: 5px;
-  position: absolute;
-  bottom: 60px;
-  left: 650px;
-  justify-content: center;
+@media (min-width: 575px){
+
+  .whyus-container {
+    padding: 48px 12px;
+  }
+
 }
 
-.switcher-dot {
-  height: 10px;
-  width: 10px;
-  background-color: #969393;
-  border-radius: 50%;
+@media (max-width: 768px){
+
+  .whyus-header-wrapper h2 {
+    font-size: 29px;
+  }
+
 }
 
-.switcher-dot:nth-child(3) {
-  background-color: 
-  #3597ff;
-}
+@media (min-width: 768px){
 
-.testimonial-circle {
-  width: 482px;
-  right: -240px;
-  bottom: -250px;
-  position: absolute;
+  .whyus-header-wrapper h2 {
+    font-size: 33px !important;
+  }
+
+  .whyus-card {
+    padding-top: 48px !important; 
+  }
+
+}
+@media (min-width: 992px){
+
+  .whyus-header-wrapper h2 {
+    font-size: 37px !important;
+  }
+
+}
+@media (min-width: 1200px){
+
+  .whyus-header-wrapper h2 {
+    font-size: var(--font-size-h2) !important;
+  }
+
 }
