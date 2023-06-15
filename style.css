@@ -1754,5 +1754,167 @@ header .border-bottom {
   .whyus-header-wrapper h2 {
     font-size: var(--font-size-h2) !important;
   }
+}
+
+
+
+/* SECTION 11 */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+.openlab-team-section {
+  padding-bottom: 48px !important;
+  font-family: var(--font-family-priamry);
+}
+
+.openlab-team-header-wrapper h2 {
+  color: var(--font-color-primary);
+  font-weight: var(--font-whg-bold);
+}
+
+.board-member-card-info-wrapper h6 {
+  font-weight: var(--font-wgh-300);
+  color: var(--font-color-secondary);
+}
+
+.board-member-card-info-wrapper h5 {
+  font-weight: var(--font-whg-bold);
+  color: var(--font-color-primary);
+}
+
+.board-member-card-info-wrapper p {
+  color: var(--font-color-secondary);
+  font-weight: var(--font-wgh-300);
+}
+
+.board-member-card-img-wrapper img {
+  vertical-align: center;
+  width: 100%;
+}
+
+@media (max-width: 320px){
+
+  .openlab-team-header-wrapper {
+    padding: 24px 12px;
+  }
+  
+  .openlab-team-header-wrapper h2 {
+    font-size: 26px;
+    margin: 0px auto 48px auto;
+  }
+
+  .board-member-card {
+    padding: 0px 12px;
+    margin-bottom: 24px;
+  }
+
+  /* .board-member-card-img-wrapper img {
+    vertical-align: center;
+    width: 100%;
+  } */
+
+  .board-member-card-info-wrapper {
+    padding: 16px 0px;
+  }
+
+  .board-member-card-info-wrapper h6 {
+    font-size: var(--font-size-parag2);
+    font-weight: 500;
+  }
+
+  .board-member-card-info-wrapper h5 {
+    margin-top: 16px;
+    margin-bottom: 0px !important;
+  }
+
+  .board-member-card-info-wrapper p {
+    font-weight: 500;
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 768px){
+
+  .board-member-card {
+    margin-bottom: 24px;
+  }
+  
+  .openlab-team-header-wrapper {
+    padding: 24px 12px;
+  }
+  
+  .openlab-team-header-wrapper h2 {
+    font-size: 29px;
+    margin: 0px auto 48px auto;
+  }
+
+  .board-member-card-info-wrapper {
+    padding: 16px 0px;
+  }
+
+  .board-member-card-info-wrapper h6 {
+    font-size: var(--font-size-parag2);
+    font-weight: 500;
+  }
+
+  .board-member-card-info-wrapper h5 {
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+
+  .board-member-card-info-wrapper p {
+    font-weight: 500;
+    margin: 0;
+  }
+
+}
+@media (min-width: 768px){
+
+  .board-member-card {
+    margin-bottom: 24px;
+  }
+  
+  .openlab-team-header-wrapper {
+    padding: 24px 12px;
+  }
+
+  .openlab-team-header-wrapper h2 {
+    font-size: 33px;
+    margin: 0px auto 48px auto;
+  }
+
+  .board-member-card-info-wrapper {
+    padding: 16px 0px;
+  }
+
+  .board-member-card-info-wrapper h6 {
+    font-size: var(--font-size-parag2);
+    font-weight: 500;
+  }
+
+  .board-member-card-info-wrapper h5 {
+    margin-top: 16px;
+    margin-bottom: 0px !important;
+  }
+
+  .board-member-card-info-wrapper p {
+    font-weight: 500;
+    margin: 0;
+  }
+
+}
+@media (min-width: 992px){
+
+  .openlab-team-header-wrapper h2 {
+    font-size: 37px;
+  }
+
+}
+@media (min-width: 1200px){
+
+  .openlab-team-header-wrapper h2 {
+    font-size: 40px;
+  }
 
 }
