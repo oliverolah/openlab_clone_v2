@@ -18,6 +18,7 @@
   --text-color-white: white;
   --section-padding: 48px 0px;
   --font-wgh-300: 300;
+  --font-wgh-500: 500;
   --font-whg-bold: bold;
   /* --section-full-width: 100% */
   --testimonial-box-bg-color: #a54fa2;
@@ -1915,6 +1916,99 @@ header .border-bottom {
 
   .openlab-team-header-wrapper h2 {
     font-size: 40px;
+  }
+
+}
+
+
+
+/* SECTION 15 */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+.mdrnschool-section {
+  padding-bottom: 48px !important;
+  padding-top: 24px !important;
+  font-family: var(--font-family-priamry);
+}
+
+.mdrnschool-text-block h2 {
+  color: var(--font-color-primary);
+  font-weight: var(--font-wgh-300);
+}
+
+.mdrnschool-text-block span {
+  font-weight: var(--font-whg-bold);
+}
+
+.mdrnschool-text-block p {
+  color: var(--font-color-secondary);
+}
+
+.mdrnschool-img-wrapper {
+  padding: 0px !important;
+}
+
+.mdrnschool-img-wrapper img {
+  vertical-align: center;
+  width: 100%;
+}
+
+.btn-lg {
+  padding: 18px 50px !important;
+}
+
+.mdrnschool-social-media-wrapper a {
+  text-decoration: none;
+}
+
+.mdrnschool-section .row {
+  margin: 0px !important;
+}
+
+@media (max-width: 320px){
+
+  .mdrnschool-text-block h2 {
+    font-size: 26px !important;
+  }
+
+}
+
+@media (max-width: 768px){
+
+  .mdrnschool-text-block h2 {
+    font-size: 29px !important;
+  }
+
+}
+
+@media (min-width: 768px){
+
+  .mdrnschool-text-block {
+    padding-right: 12px !important;
+  }
+  
+  .mdrnschool-text-block h2 {
+    font-size: 33px !important;
+  }
+
+  .mdrnschool-img-wrapper {
+    padding: 0px 12px !important;
+  }
+
+}
+@media (min-width: 992px){
+
+  .mdrnschool-text-block h2 {
+    font-size: 37px !important;
+  }
+
+}
+
+@media (min-width: 1200px){
+
+  .mdrnschool-text-block h2 {
+    font-size: var(--font-size-h2) !important;
   }
 
 }
