@@ -1995,20 +1995,74 @@ header .border-bottom {
   .mdrnschool-img-wrapper {
     padding: 0px 12px !important;
   }
-
 }
 @media (min-width: 992px){
 
   .mdrnschool-text-block h2 {
     font-size: 37px !important;
   }
-
 }
 
 @media (min-width: 1200px){
 
   .mdrnschool-text-block h2 {
     font-size: var(--font-size-h2) !important;
+  }
+}
+
+
+
+/* SECTION 16 */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+/* .openlab-sponsors-section {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+} */
+
+.sponsors-header-wrapper h2 {
+  color: var(--font-color-primary);
+  font-weight: var(--font-wgh-300);
+  text-align: center;
+}
+
+.sponsors-header-wrapper span {
+  font-weight: var(--font-whg-bold);
+}
+
+@media (max-width: 320px){
+
+  .sponsors-header-wrapper h2 {
+    font-size: 26px;
+  }
+
+}
+@media (max-width: 768px){
+
+  .sponsors-header-wrapper h2 {
+    font-size: 30px;
+  }
+
+}
+@media (min-width: 768px){
+
+  .sponsors-header-wrapper h2 {
+    font-size: 34px;
+  }
+
+}
+@media (min-width: 992px){
+
+  .sponsors-header-wrapper h2 {
+    font-size: 37px;
+  }
+
+}
+@media (min-width: 1200px){
+
+  .sponsors-header-wrapper h2 {
+    font-size: var(--font-size-h2);
   }
 
 }
